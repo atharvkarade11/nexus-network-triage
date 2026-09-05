@@ -1,0 +1,58 @@
+[
+  {
+    "device_id": "RTR-01",
+    "hostname": "core-router-01",
+    "device_type": "router",
+    "location": "Data Center A",
+    "criticality": "critical"
+  },
+  {
+    "device_id": "RTR-02",
+    "hostname": "core-router-02",
+    "device_type": "router",
+    "location": "Data Center A",
+    "criticality": "high"
+  },
+  {
+    "device_id": "SW-01",
+    "hostname": "core-switch-01",
+    "device_type": "switch",
+    "location": "Data Center A",
+    "criticality": "critical"
+  },
+  {
+    "device_id": "SW-02",
+    "hostname": "access-switch-02",
+    "device_type": "switch",
+    "location": "Data Center B",
+    "criticality": "medium"
+  },
+  {
+    "device_id": "FW-01",
+    "hostname": "firewall-01",
+    "device_type": "firewall",
+    "location": "Data Center A",
+    "criticality": "critical"
+  },
+  {
+    "device_id": "SRV-01",
+    "hostname": "application-server-01",
+    "device_type": "server",
+    "location": "Data Center A",
+    "criticality": "high"
+  },
+  {
+    "device_id": "SRV-02",
+    "hostname": "database-server-01",
+    "device_type": "server",
+    "location": "Data Center A",
+    "criticality": "critical"
+  },
+  {
+    "device_id": "AP-01",
+    "hostname": "wireless-controller-01",
+    "device_type": "access_point",
+    "location": "Office Network",
+    "criticality": "medium"
+  }
+]

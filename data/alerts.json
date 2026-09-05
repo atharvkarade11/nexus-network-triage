@@ -1,0 +1,168 @@
+[
+  {
+    "alert_id": "ALT-1001",
+    "timestamp": "2026-09-05T10:00:01",
+    "device_id": "RTR-01",
+    "alert_type": "link_down",
+    "severity": "critical",
+    "message": "Interface Gi0/1 link is down"
+  },
+  {
+    "alert_id": "ALT-1002",
+    "timestamp": "2026-09-05T10:00:04",
+    "device_id": "RTR-01",
+    "alert_type": "device_unreachable",
+    "severity": "critical",
+    "message": "Router RTR-01 is unreachable"
+  },
+  {
+    "alert_id": "ALT-1003",
+    "timestamp": "2026-09-05T10:00:07",
+    "device_id": "SW-01",
+    "alert_type": "packet_loss",
+    "severity": "high",
+    "message": "Packet loss reached 78% on uplink"
+  },
+  {
+    "alert_id": "ALT-1004",
+    "timestamp": "2026-09-05T10:00:10",
+    "device_id": "SRV-01",
+    "alert_type": "latency_high",
+    "severity": "high",
+    "message": "Network latency increased to 850ms"
+  },
+
+  {
+    "alert_id": "ALT-1005",
+    "timestamp": "2026-09-05T10:15:01",
+    "device_id": "SRV-01",
+    "alert_type": "latency_high",
+    "severity": "medium",
+    "message": "Application response latency reached 420ms"
+  },
+  {
+    "alert_id": "ALT-1006",
+    "timestamp": "2026-09-05T10:15:08",
+    "device_id": "SRV-01",
+    "alert_type": "latency_high",
+    "severity": "high",
+    "message": "Network round-trip latency reached 780ms"
+  },
+  {
+    "alert_id": "ALT-1007",
+    "timestamp": "2026-09-05T10:15:15",
+    "device_id": "SRV-01",
+    "alert_type": "timeout",
+    "severity": "high",
+    "message": "Application connection timeout detected"
+  },
+
+  {
+    "alert_id": "ALT-1008",
+    "timestamp": "2026-09-05T10:30:01",
+    "device_id": "FW-01",
+    "alert_type": "authentication_failure",
+    "severity": "medium",
+    "message": "Multiple failed administrator authentication attempts"
+  },
+  {
+    "alert_id": "ALT-1009",
+    "timestamp": "2026-09-05T10:30:04",
+    "device_id": "FW-01",
+    "alert_type": "authentication_failure",
+    "severity": "medium",
+    "message": "Repeated authentication failures from same source"
+  },
+  {
+    "alert_id": "ALT-1010",
+    "timestamp": "2026-09-05T10:30:09",
+    "device_id": "FW-01",
+    "alert_type": "account_lockout",
+    "severity": "high",
+    "message": "Administrator account locked after failed attempts"
+  },
+
+  {
+    "alert_id": "ALT-1011",
+    "timestamp": "2026-09-05T10:45:01",
+    "device_id": "SW-02",
+    "alert_type": "packet_loss",
+    "severity": "medium",
+    "message": "Packet loss reached 35%"
+  },
+  {
+    "alert_id": "ALT-1012",
+    "timestamp": "2026-09-05T10:45:06",
+    "device_id": "SW-02",
+    "alert_type": "interface_errors",
+    "severity": "medium",
+    "message": "High interface error count detected"
+  },
+  {
+    "alert_id": "ALT-1013",
+    "timestamp": "2026-09-05T10:45:12",
+    "device_id": "SW-02",
+    "alert_type": "link_flapping",
+    "severity": "high",
+    "message": "Interface Gi0/24 repeatedly changing state"
+  },
+
+  {
+    "alert_id": "ALT-1014",
+    "timestamp": "2026-09-05T11:00:01",
+    "device_id": "AP-01",
+    "alert_type": "unknown_signal",
+    "severity": "high",
+    "message": "Unexpected RF interference pattern detected"
+  },
+  {
+    "alert_id": "ALT-1015",
+    "timestamp": "2026-09-05T11:00:05",
+    "device_id": "AP-01",
+    "alert_type": "unknown_signal",
+    "severity": "critical",
+    "message": "Wireless controller reports unidentified interference source"
+  },
+
+  {
+    "alert_id": "ALT-1016",
+    "timestamp": "2026-09-05T11:15:01",
+    "device_id": "SRV-02",
+    "alert_type": "cpu_high",
+    "severity": "medium",
+    "message": "Database server CPU utilization reached 92%"
+  },
+  {
+    "alert_id": "ALT-1017",
+    "timestamp": "2026-09-05T11:15:08",
+    "device_id": "SRV-02",
+    "alert_type": "connection_slow",
+    "severity": "high",
+    "message": "Database connection response time increased"
+  },
+  {
+    "alert_id": "ALT-1018",
+    "timestamp": "2026-09-05T11:15:15",
+    "device_id": "SRV-02",
+    "alert_type": "connection_timeout",
+    "severity": "critical",
+    "message": "Database connection timeout detected"
+  },
+
+  {
+    "alert_id": "ALT-1019",
+    "timestamp": "2026-09-05T11:30:01",
+    "device_id": "RTR-02",
+    "alert_type": "packet_loss",
+    "severity": "low",
+    "message": "Packet loss reached 5%"
+  },
+  {
+    "alert_id": "ALT-1020",
+    "timestamp": "2026-09-05T11:30:12",
+    "device_id": "RTR-02",
+    "alert_type": "packet_loss",
+    "severity": "low",
+    "message": "Packet loss returned to normal range"
+  }
+]
